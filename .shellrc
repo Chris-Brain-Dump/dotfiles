@@ -1,0 +1,27 @@
+# Bling
+'neofetch'
+
+# this is linked to my bash and zsh file 
+# 'source ~/.shellrc' is added to both
+
+
+# system aliases
+alias die='sudo shutdown now'
+alias rbt='sudo reboot'
+
+# script and terminal inigrations
+#   alias dmenu='rofi -dmenu'
+alias yay='paru'
+## nvim as manpager: from DT https://www.youtube.com/watch?v=ab3rY0X5kD4
+export MANPAGER="nvim -c 'set ft=man' -"
+## terminal Swallowing: DT https://www.youtube.com/watch?v=mBNLzHcUtTo
+## install xdo https://github.com/baskerville/xdo
+## get devour script https://github.com/salman-abedin/devour/
+## note: devour is now written in C not a shell script
+alias brave='devour brave'
+alias emacs='devour emacs'
+alias vb='devour virtualbox'
+
+
+# shellrc dependencies
+alias shellrc_dependentcies='neofetch rofi nvim devour'
